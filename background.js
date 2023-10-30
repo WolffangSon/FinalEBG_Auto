@@ -1,7 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
   // Setting up variables
   chrome.storage.local.set({ webappURL: '', sheetTab: '', userEmail: '', botActive: 0, tabId: 0, errorCounter: 0, refreshMins: 1 });
-
   if (chrome.runtime.openOptionsPage) {
     chrome.runtime.openOptionsPage();
   } else {
