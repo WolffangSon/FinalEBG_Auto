@@ -1,7 +1,7 @@
 {
     "name": "Five9 RTU",
-    "version": "1.0.47",
-    "description": "Verint DMix",
+    "version": "1.0.1",
+    "description": "Five9 data extraction bot",
     "author": "Marvin Rivera",
     "permissions": ["storage", "tabs", "scripting", "alarms", "notifications"],
     "host_permissions": ["https://*.five9.com/*", "https://*.google.com/*"],
