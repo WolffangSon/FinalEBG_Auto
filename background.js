@@ -7,7 +7,6 @@ chrome.runtime.onInstalled.addListener(() => {
   } else {
     chrome.tabs.create({ active: true, url: 'options.html' });
   }
-
 });
 
 chrome.runtime.onStartup.addListener(() => {
